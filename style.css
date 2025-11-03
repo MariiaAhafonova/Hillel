@@ -124,3 +124,12 @@
     margin-left: 40px;
     margin-top: 44px;
     }
+
+.img {
+    position: absolute;
+    top: 150px;
+    right: 0px;
+    width: 507px;
+    height: 450px;
+    flex-shrink: 0;
+}

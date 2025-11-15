@@ -507,16 +507,16 @@
 }
 
 .card-hover{
-   display: flex;
+   display: none;
    flex-direction: column;
    align-items: center;
    gap: 257px;
-   position: relative;
+   position: absolute;
 }
 
 .rectangle-hover{
    width: 258px;
-   height: 1px;
+   height: 2px;
    background: #46A358;
    position: relative;
    
@@ -525,6 +525,7 @@
 .btn-hover{
    display: flex;
    gap: 10px;
+   background-color: #FFF;
 }
 
 .cart-btn-hover{
@@ -553,4 +554,8 @@
    background: #46A358;
    position: relative;
    top: -307px;
+}
+
+.shop-right-card:hover .card-hover{
+   display: flex;
 }

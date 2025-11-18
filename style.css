@@ -102,6 +102,7 @@
     flex-direction: column;
     align-items: start;
     gap: 8px;
+    width: 55%;
  }
 
 .left-main-title{
@@ -151,6 +152,25 @@
     line-height: 20px; /* 125% */
     text-transform: uppercase;
     padding: 12px 26px;
+ }
+
+ .right-main{
+      position: absolute;
+      width: 563px;
+      height: 463px;
+      right: 110px;
+      top: 98px;
+ }
+
+ .main-small-plant{
+   position: relative;
+   left: 55px;
+   top: 298px;
+ }
+
+ .main-big-plant{
+      position: relative;
+      top: -142px;
  }
 
  .shop{
@@ -529,19 +549,13 @@
    background-color: #FFF;
 }
 
-.cart-btn-hover{
+.cart-btn-hover,
+.fav-hover,
+.search-hover {
    padding: 6px;
    background-color: #FFF;
-}
-
-.fav-hover{
-   padding: 6px;
-   background-color: #FFF;
-}
-
-.search-hover{
-   padding: 6px;
-   background-color: #FFF;
+   cursor: pointer;
+   transition: fill 0.3s ease; 
 }
 
 .discount{
@@ -559,4 +573,16 @@
 
 .shop-right-card:hover .card-hover{
    display: flex;
+}
+
+.cart-btn-hover svg path,
+.fav-hover svg path,
+.search-hover svg path {
+    fill: #3D3D3D;
+   }    
+
+.cart-btn-hover:hover svg path,
+.fav-hover:hover svg path,
+.search-hover:hover svg path {
+   fill: #46A358;
 }

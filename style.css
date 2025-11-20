@@ -292,6 +292,7 @@
     padding: 20px 4px;
     background: #FBFBFB;
     mix-blend-mode: multiply;
+    position: relative;
  }
 
  .card-name{
@@ -531,7 +532,6 @@
    display: none;
    flex-direction: column;
    align-items: center;
-   gap: 257px;
    position: absolute;
 }
 
@@ -544,9 +544,12 @@
 }
 
 .btn-hover{
-   display: flex;
+   display: none;
    gap: 10px;
    background-color: #FFF;
+   position: absolute;
+   justify-content: center;
+   bottom: 10px;
 }
 
 .cart-btn-hover,
@@ -571,7 +574,7 @@
    top: -307px;
 }
 
-.shop-right-card:hover .card-hover{
+.shop-right-card:hover .btn-hover{
    display: flex;
 }
 
@@ -584,5 +587,9 @@
 .cart-btn-hover:hover svg path,
 .fav-hover:hover svg path,
 .search-hover:hover svg path {
+   fill: #46A358;
+}
+
+.cart-btn-hover:hover svg path{
    fill: #46A358;
 }

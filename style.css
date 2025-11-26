@@ -63,6 +63,18 @@
     line-height: normal;
 }
 
+.list-item-drop{
+    padding: 8px 0 25px;
+    border-bottom: 3px solid transparent;
+    color: #3D3D3D;
+    font-family: "Cera Pro Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+}
+
 .active{
     border-color: #46a358;
     color: #3D3D3D;
@@ -73,6 +85,74 @@
     line-height: normal;
 }
 
+.list-item-dropdown1{
+   display: none;
+   flex-direction: column;
+   position: absolute;
+   top: 68px;
+   left: -60px;
+}
+
+.dropdown1{
+   color: #3D3D3D;
+   font-family: "Cera Pro Regular";
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   width: 188px;
+   height: 35px;
+   padding: 7px 102px 8px 14px;
+   align-items: center;
+   background-color: #EDF6EE;
+}
+
+.dropdown1-hover{
+   color: #3D3D3D;
+   font-family: "Cera Pro Regular";
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   width: 188px;
+   height: 35px;
+   padding: 7px 14px 8px 14px;
+   align-items: center;
+   background-color: #EDF6EE;
+   gap: 89px;
+}
+
+.list-item-drop:hover .list-item-dropdown1{
+   display: flex;
+}
+
+.list-item-dropdown2{
+   display: none;
+   flex-direction: column;
+   position: absolute;
+   top: 0px;
+   left: 190px;
+}
+
+.dropdown2{
+   color: #3D3D3D;
+   font-family: "Cera Pro Regular";
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   width: 178px;
+   height: 35px;
+   padding: 7px 14px 8px 14px;
+   align-items: center;
+   background-color: #EDF6EE;
+   position: relative;
+   z-index: 1;
+}
+
+.dropdown1-hover:hover .list-item-dropdown2{
+   display: flex;
+}
 
 .btn {
     font-family: "Cera Pro Medium";
@@ -286,6 +366,9 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    border-top-width: 2px ;
+    border-top-style: solid;
+    border-top-color: transparent;
  }
 
  .shop-right-card-photo{
@@ -535,14 +618,6 @@
    position: absolute;
 }
 
-.rectangle-hover{
-   width: 258px;
-   height: 2px;
-   background: #46A358;
-   position: relative;
-   
-}
-
 .btn-hover{
    display: none;
    gap: 10px;
@@ -550,15 +625,17 @@
    position: absolute;
    justify-content: center;
    bottom: 10px;
+   left: 27%;
 }
 
-.cart-btn-hover,
-.fav-hover,
-.search-hover {
+.cart-btn-hover {
    padding: 6px;
    background-color: #FFF;
    cursor: pointer;
-   transition: fill 0.3s ease; 
+   border-radius: 6px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 .discount{
@@ -578,17 +655,14 @@
    display: flex;
 }
 
-.cart-btn-hover svg path,
-.fav-hover svg path,
-.search-hover svg path {
+.shop-right-card:hover{
+   display: flex;
+   border-top-color: #46A358;
+}
+
+.cart-btn-hover svg path {
     fill: #3D3D3D;
    }    
-
-.cart-btn-hover:hover svg path,
-.fav-hover:hover svg path,
-.search-hover:hover svg path {
-   fill: #46A358;
-}
 
 .cart-btn-hover:hover svg path{
    fill: #46A358;

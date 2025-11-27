@@ -75,6 +75,16 @@
     position: relative;
 }
 
+.list-item-drop:hover{
+    border-color: #46a358;
+    color: #3D3D3D;
+    font-family: "Cera Pro Bold";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 .active{
     border-color: #46a358;
     color: #3D3D3D;
@@ -120,6 +130,16 @@
    align-items: center;
    background-color: #EDF6EE;
    gap: 89px;
+}
+
+.dropdown1-hover:hover{
+   background: #1A712A;
+   color: #FFF;
+   font-family: "Cera Pro Bold";
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
 }
 
 .list-item-drop:hover .list-item-dropdown1{

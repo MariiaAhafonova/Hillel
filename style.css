@@ -688,3 +688,17 @@
 .cart-btn-hover:hover svg path{
    fill: #46A358;
 }
+
+.footer-join{
+   display: flex;
+   background-color: #FBFBFB;
+}
+
+.footer-join-left{
+   display: flex;
+}
+
+.footer-join-left-card{
+   display: flex;
+   flex-direction: column;
+}

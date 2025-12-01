@@ -791,3 +791,110 @@
    font-weight: 400;
    line-height: 22px; /* 169.231% */
 }
+
+.footer-header{
+   display: flex;
+   justify-content: space-between;
+   padding: 25px 33px;
+   background: linear-gradient(90deg, #EDF6EF 0%, #52C368 100%);
+}
+
+.footer-header-contact{
+   display: flex;
+   align-items: center;
+   gap: 9px;
+}
+
+.footer-header-contact-p{
+   color: #3D3D3D;
+   font-family: "Cera Pro Regular";
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 22px; /* 157.143% */
+}
+
+.footer-header-contact-p1{
+   color: #3D3D3D;
+   font-family: "Cera Pro Regular";
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 22px; /* 157.143% */
+   width: 70%;
+}
+
+.footer{
+   display: flex;
+   gap: 173px;
+   padding: 25px;
+   background: #FBFBFB;
+}
+
+.footer-left{
+   display: flex;
+   justify-content: space-between;
+   gap: 147px;
+}
+
+.footer-left-nav{
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+}
+
+.footer-left-h4{
+   color: #3D3D3D;
+   font-family: "Cera Pro Bold";
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 16px; /* 88.889% */
+}
+
+.footer-left-list{
+   display: flex;
+   flex-direction: column;
+}
+
+.footer-left-list-item{
+   color: #3D3D3D;
+   font-family: "Cera Pro Regular";
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 30px; /* 214.286% */
+}
+
+.footer-right{
+   display: flex;
+   flex-direction: column;
+   gap: 33px;
+}
+
+.footer-right1{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.footer-right-h4{
+   color: #3D3D3D;
+   font-family: "Cera Pro Bold";
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 16px; /* 88.889% */
+}
+
+.allrightsreserved{
+   display: flex;
+   justify-content: center;
+   color: #3D3D3D;
+   font-family: "Cera Pro Regular";
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 30px; /* 214.286% */
+   margin-top: 6px;
+}
